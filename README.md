@@ -17,4 +17,9 @@ This is a web-based quiz application with gamification elements, built using Rea
 
 The quiz questions are retrieved from:https://api.jsonserve.com/Uw5CrX
 
-<strong>Video Walkthrough</strong>
+### Video Walkthrough
+
+<video width="600" controls>
+  <source src="PASTE_VIDEO_URL_HERE" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
