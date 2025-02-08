@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testline Header</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div class="logo-container">
+    <img src="logo.png" alt="Testline Logo" class="logo-img">
+</div>
+
+<div id="container1">
+    <h1>Welcome to Testline</h1>
+    <p>
+        Testline is redefining how students prepare for competitive exams like REET, NEET, and State PSCs.
+        With daily test targets, smart revision, and gamified routines, we make learning interactive, 
+        interesting, and impactful. Join Testline to build habits, retain concepts, and <strong>ace your confidence!</strong>
+    </p>
+</div>
+
+    <div id="container">
+        <h1>Quiz Game</h1>
+        <button id="start-btn">Start Quiz</button>
+
+        <div id="quiz" style="display: none;">
+            <div id="progress-bar"></div>
+            <h2 id="question-text"></h2>
+            <ul id="options"></ul>
+            <p id="timer">⏳ Time Left: <span id="time-left">10</span>s</p>
+            <button id="next-btn" style="display: none;">Next</button>
+        </div>
+
+        <div id="results" style="display: none;">
+            <h2>Quiz Completed! 🎉</h2>
+            <p id="score-text"></p>
+            <h3>Leaderboard 🏆</h3>
+            <ul id="leaderboard"></ul>
+            <button onclick="restartQuiz()">Play Again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <div class="footer-top">
+            <a href="https://testline.in/refund.html" target="_blank">Refund Policy</a>
+            <a href="https://testline.in/privacy.html" target="_blank">Privacy Policy</a>
+            <a href="https://testline.in/about.html" target="_blank">About</a>
+        </div>
+        <div class="footer-middle">
+            Copyright © M/S. TESTLINE EDUTECH (OPC) PVT. LTD. All Rights Reserved.
+        </div>
+        <div class="footer-bottom">
+            <a href="https://play.google.com/store/apps/developer?id=Testline" target="_blank" class="download-btn">
+                DOWNLOAD FOR FREE
+            </a>
+        </div>
+    </footer>
+    
+</body>
+</html>
